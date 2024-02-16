@@ -8,10 +8,7 @@ class Student:
         self.major = major
         self.gpa = gpa
         self.is_on_probation = is_on_probation 
-        self.valedictorian = False #By default, students are not valedictorians
-#Now lets consider what will make a good student.
-# For a student to be deemed as a good student their gpa should be more than 3.0
-#If not then you are not part of the good student list
+        
     def good_student(self):
         if self.gpa > 3.0:
             return f"You will be part oof the good student list"
@@ -36,5 +33,5 @@ class Student:
         
     #Now lets create a valedictorian for this school system
     #Check if the student has the highest GPA and update valedictorian
-        
+    
         
